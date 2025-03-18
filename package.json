@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+  "node": "20.x"
+}
+
   "scripts": {
     "dev": "nodemon server/index.ts",
     "stripe":"stripe listen --forward-to localhost:8000/api/v1/order/webhook",
